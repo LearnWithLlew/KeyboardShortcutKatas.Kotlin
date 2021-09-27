@@ -6,6 +6,6 @@ import org.junit.jupiter.api.Test
 class InlineTest {
     @Test
     internal fun testInline() {
-    assertEquals(42, 43)
+    assertEquals(42, Inline().practice())
     }
 }
